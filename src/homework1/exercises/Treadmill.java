@@ -12,6 +12,6 @@ public class Treadmill extends Exercise {
 
     @Override
     public boolean DoExercise(Sportsman sportsman) {
-        return sportsman.Run(distance);
+        return sportsman.run(distance);
     }
 }

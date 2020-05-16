@@ -16,6 +16,6 @@ public class Wall extends Exercise {
 
     @Override
     public boolean DoExercise(Sportsman sportsman) {
-        return sportsman.Jump(height);
+        return sportsman.jump(height);
     }
 }

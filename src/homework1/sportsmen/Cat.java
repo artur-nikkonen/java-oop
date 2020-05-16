@@ -14,7 +14,7 @@ public class Cat implements Sportsman{
     }
 
     @Override
-    public boolean Run(double distance) {
+    public boolean run(double distance) {
         if (distance <= maxRunDistance) {
             System.out.println(typeName + " " + name + " пробежал дистанцию " + distance + " [<= " + maxRunDistance + "]");
             return true;
@@ -25,7 +25,7 @@ public class Cat implements Sportsman{
     }
 
     @Override
-    public boolean Jump(double height) {
+    public boolean jump(double height) {
         if (height <= maxJump) {
             System.out.println(typeName + " " + name + " перепрегнул стену высотой " + height + " [<= " + maxJump + "]");
             return true;
